@@ -2,7 +2,6 @@
 //Exercise 1
 
 <canvas id="canvas" ></canvas>
-<script>
 	
    const canvas =document.getElementById('canvas');
    const context = canvas.getContext('2d');
@@ -43,14 +42,14 @@
         		};
 
 creatbox(5,500,500)
-</script>
+
 
 
 
 //Exercise 2
 
 <canvas id="canvas" ></canvas>
-<script>
+
 	
    const canvas =document.getElementById('canvas');
    const context = canvas.getContext('2d');
@@ -122,15 +121,10 @@ creatbox(5,500,500)
      loop();
 
 
-
-</script>
-
-
 //Exercise 3
 
 <canvas id="c1"></canvas>
 
-<script>
    const canvas =document.getElementById('c1');
    const context = canvas.getContext('2d');
   
@@ -295,8 +289,4 @@ gesh(5,500, 400);
      };
      
      loop();
-
-
- 
-</script>
         
